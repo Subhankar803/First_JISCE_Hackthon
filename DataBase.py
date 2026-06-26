@@ -10,4 +10,4 @@ db_url = os.getenv(
 engine = create_engine(db_url)
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 # Keep session variable for potential compatibility with existing code
-session = SessionLocal
+session = SessionLocal
