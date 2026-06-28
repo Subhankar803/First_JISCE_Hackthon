@@ -31,7 +31,7 @@ while True:
 
         completion = client.chat.completions.create(
             max_tokens=2000,
-            model="google/gemma-4-31b-it:free",
+            model="openai/gpt-oss-120b:free",
             messages=messages
         )
 
